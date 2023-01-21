@@ -3,13 +3,3 @@
     padding: 0;
 }
 
-#search-input {
-    max-width: 10em;
-    border-radius: 3px;
-}
-
-#search-btn {
-    width: 10em;
-    padding:1px;
-    border-radius: 3px;
-}
