@@ -6,9 +6,9 @@ var apiKey = '624172607408572c325d20c8a89e7175'
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 
 
-// set current time in header
+// sets current time in header
 setInterval(setTime, 1000);
-
+vs
 function setTime() {
 var today = dayjs();
  $('#current-weather-header').text(today.format('MMM D, YYYY hh:mm:ss a'));
