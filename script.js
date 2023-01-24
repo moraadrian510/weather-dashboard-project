@@ -8,13 +8,13 @@ var apiKey = '624172607408572c325d20c8a89e7175'
 
 // sets current time in header
 setInterval(setTime, 1000);
-vs
+
 function setTime() {
 var today = dayjs();
  $('#current-weather-header').text(today.format('MMM D, YYYY hh:mm:ss a'));
 }
 
-//APIs data call 
+//API data call 
 function getCurrentWeather(city) {
     var url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
     fetch(url)
