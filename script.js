@@ -14,6 +14,7 @@ var today = dayjs();
  $('#current-weather-header').text(today.format('MMM D, YYYY hh:mm:ss a'));
 }
 
+//APIs data call 
 function getCurrentWeather(city) {
     var url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
     fetch(url)
