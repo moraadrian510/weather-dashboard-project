@@ -4,14 +4,14 @@
 }
 
 .widget-container {
-    width: 1200px;
     border-bottom: 2px solid white;
     justify-items: center;
-    width: 1067px;
-    
+    /* width: 1067px; */ 
 }
+
 
 .weatherwidget-io{
     border-bottom: 2px solid white;
 }
+
 
