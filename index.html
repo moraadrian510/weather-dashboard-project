@@ -22,20 +22,9 @@
            <p id="current-weather-header"></p>
        </div>
     </div>
-    <div class="container-fuid text-center"></div>
-        <div class="col"></div>
-                <div class="widget-container">
-                    <h3 class="text-center">Current weather In U.S cities</h3>
-                    <a class="weatherwidget-io" href="https://forecast7.com/en/37d77n122d42/san-francisco/?unit=us" data-label_1="SAN FRANCISCO" data-label_2="WEATHER" data-theme="original" >SAN FRANCISCO WEATHER</a>
-                    <a class="weatherwidget-io" href="https://forecast7.com/en/34d05n118d24/los-angeles/?unit=us" data-label_1="LOS ANGELES" data-label_2="WEATHER" data-theme="original" >LOS ANGELES WEATHER</a>
-                    <a class="weatherwidget-io" href="https://forecast7.com/en/37d34n121d89/san-jose/?unit=us" data-label_1="SAN JOSE" data-label_2="WEATHER" data-theme="original" >SAN JOSE WEATHER</a>
-                    <a class="weatherwidget-io" href="https://forecast7.com/en/41d88n87d63/chicago/?unit=us" data-label_1="CHICAGO" data-label_2="WEATHER" data-theme="original" >CHICAGO WEATHER</a>
-                    <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/?unit=us" data-label_1="NEW YORK" data-label_2="WEATHER" data-theme="original" >NEW YORK WEATHER</a>
-                </div>
-        </div>
-    </div>
+   
     <!--display of none-->
-    <section class="container p-3 d-flex-column text-center d-none ">
+    <section class="container p-3 d-flex-column text-center">
         <div class="col g-2">
           <div class="col-6">
             <div class="p-1 border bg-light">city history</div>
@@ -57,7 +46,7 @@
           </div>
           <div class="row mr-0">
             <!--display of none-->
-            <div class="col-lg-11 card m-3 d-none" id="today-weather">
+            <div class="col-lg-11 card m-3" id="today-weather">
                 <div class="card-body">
                     <h3 id="city-name" class="city-name align-middle">san fran</h3>
                     <img id="current-pic" alt="">
@@ -70,7 +59,7 @@
         </div>
         </div>
         <!--display of none-->
-        <div class="row d-none" id="fiveday-header">
+        <div class="row" id="fiveday-header">
             <div class="col-12">
                 <h3>5-Day Forecast</h3>
             </div>
@@ -83,6 +72,18 @@
             <div class="col-md-2 forecast bg-primary text-white m-2 rounded"></div>
         </div>
     </section>
+    <div class="container-fuid text-center"></div>
+    <div id="widget-col" class="col"></div>
+            <div class="widget-container">
+                <h3 class="text-center">Current weather In U.S cities</h3>
+                <a class="weatherwidget-io" href="https://forecast7.com/en/37d77n122d42/san-francisco/?unit=us" data-label_1="SAN FRANCISCO" data-label_2="WEATHER" data-theme="original" >SAN FRANCISCO WEATHER</a>
+                <a class="weatherwidget-io" href="https://forecast7.com/en/34d05n118d24/los-angeles/?unit=us" data-label_1="LOS ANGELES" data-label_2="WEATHER" data-theme="original" >LOS ANGELES WEATHER</a>
+                <a class="weatherwidget-io" href="https://forecast7.com/en/37d34n121d89/san-jose/?unit=us" data-label_1="SAN JOSE" data-label_2="WEATHER" data-theme="original" >SAN JOSE WEATHER</a>
+                <a class="weatherwidget-io" href="https://forecast7.com/en/41d88n87d63/chicago/?unit=us" data-label_1="CHICAGO" data-label_2="WEATHER" data-theme="original" >CHICAGO WEATHER</a>
+                <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/?unit=us" data-label_1="NEW YORK" data-label_2="WEATHER" data-theme="original" >NEW YORK WEATHER</a>
+            </div>
+    </div>
+</div>
 </body>
 <script
 src="https://code.jquery.com/jquery-3.5.1.min.js"
